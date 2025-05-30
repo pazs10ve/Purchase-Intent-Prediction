@@ -1,0 +1,106 @@
+# core data science libraries
+pandas
+numpy
+scikit-learn
+scipy
+polars  # Fast DataFrame library alternative to pandas
+
+# Machine Learning Frameworks
+xgboost
+lightgbm
+catboost
+
+# Hyperparameter Tuning
+optuna
+hyperopt
+
+# Experiment Tracking & Model Registry
+mlflow
+wandb  # Alternative to MLflow for experiment tracking
+
+# Feature Store
+feast
+
+# Data Validation & Quality
+great-expectations
+evidently  # For drift detection
+pandera  # DataFrame validation
+
+# Data Versioning
+dvc
+dvc[s3]  # S3 remote storage support
+
+# Pipeline Orchestration
+prefect
+#apache-airflow  # Alternative - uncomment if using Airflow instead
+
+# API & Serving (for future deployment)
+fastapi
+uvicorn[standard]
+pydantic
+
+# Database & Storage
+sqlalchemy
+psycopg2-binary  # PostgreSQL adapter
+redis
+boto3  # AWS SDK
+
+# Monitoring & Observability
+prometheus-client
+grafana-api
+
+# Visualization
+matplotlib
+seaborn
+plotly
+altair
+
+# Jupyter & Development
+jupyter
+jupyterlab
+ipywidgets
+notebook
+
+# Testing
+pytest
+pytest-cov
+pytest-mock
+pytest-xdist  # Parallel testing
+
+# Code Quality & Linting
+black
+isort
+flake8
+mypy
+pre-commit
+
+# Documentation
+sphinx
+mkdocs
+mkdocs-material
+
+# Utilities
+python-dotenv
+click  # CLI framework
+tqdm  # Progress bars
+joblib
+pyyaml
+requests
+
+# Development & Debugging
+ipdb
+memory-profiler
+line-profiler
+
+# Security
+cryptography
+python-jose[cryptography]
+
+# Container & Deployment (for future use)
+docker
+kubernetes
+
+# Fix versions for reproducibility
+setuptools
+wheel
+pip
